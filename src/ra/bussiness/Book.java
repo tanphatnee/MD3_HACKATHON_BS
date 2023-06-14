@@ -89,7 +89,7 @@
 
             interest = (float) (exportPrice - importPrice);
 
-            scanner.nextLine(); // Loại bỏ kí tự xuống dòng thừa
+            scanner.nextLine();
 
             System.out.print("\033[1;34m Trạng thái (true - Còn sách, false - Hết sách): \033[0m");
             bookStatus = scanner.nextBoolean();
